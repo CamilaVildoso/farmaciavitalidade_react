@@ -3,7 +3,7 @@ import './Home.css';
 function Home() {
     return (
         <>
-        <div className="flex justify-center">
+        <div id="home"  className="flex justify-center">
             <div className='text-black'>
                 <div className="flex flex-col w-[200px] md:w-[500px] p-4 m-4 bg-red-200 rounded-md gap-4 items-center justify-center py-4 shadow-lg transition-transform transform hover:scale-105">
                     <h2 className='text-[25px] md:text-3xl font-bold text-red-600'>Farmacia Vitalidade</h2>
@@ -17,7 +17,7 @@ function Home() {
 
         <hr className="my-8 border-2 border-red-300" />
 
-        <div className="flex flex-col justify-center items-center mt-8">
+        <div id="categorias" className="flex flex-col justify-center items-center mt-8">
             <h3 className="text-[20px] md:text-[25px] font-bold mb-4 text-red-600">Nossas Categorias</h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 <div className="p-4 bg-red-200 rounded-md text-center border-2 border-red-500 shadow-md transition-transform transform hover:scale-105">
@@ -34,7 +34,7 @@ function Home() {
 
         <hr className="my-8 border-2 border-red-300" />
 
-        <div className="flex flex-col justify-center items-center mt-8">
+        <div id="produtos" className="flex flex-col justify-center items-center mt-8">
             <h3 className="text-[20px] md:text-[25px] font-bold mb-4 text-red-600">Produtos</h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 {/* Producto 1 - Medicamentos */}
@@ -103,7 +103,7 @@ function Home() {
       <hr className="my-8 border-2 border-red-300" />
 
       {/* Sección de Contacto */}
-      <div className="flex flex-col justify-center items-center mt-8 mb-8">
+      <div id="contato" className="flex flex-col justify-center items-center mt-8 mb-8">
           <h3 className="text-[20px] md:text-[25px] font-bold mb-4 text-red-600">Contato</h3>
           <div className="w-full md:w-[800px] p-4 bg-red-300 rounded-md text-center">
               <div className="mb-4">
